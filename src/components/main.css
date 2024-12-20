@@ -1,0 +1,108 @@
+ 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    /* grid-gap: 1px; Add gap between grid items to separate the borders */
+}
+
+.box {
+    min-width: 100px;
+    min-height: 100px;
+    border: 1px solid #000; /* Add a solid border to all boxes */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: blue;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;   
+    background-color: #7e7e7e;
+}
+
+.br-up {
+    border-top: 2px black solid;
+}
+
+.br-left {
+    border-left: 2px black solid;
+}
+
+.br-right {
+    border-right: 2px black solid;
+}
+
+.br-bottom {
+    border-bottom: 2px black solid;
+}
+
+.image {
+    height: 80px; /* Adjust image size */
+    width: 80px; /* Adjust image size */
+}
+
+
+#rst-btn{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#rst-btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#crt-text{
+   width: 300px;
+    font-size: 16px;
+    color: black;
+}
+
+.O{
+    background-color: black;
+}
+
+.X{
+    background-color: white;
+}
+
+p{
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+
+#player{
+    padding: 10px;
+    /* background-color: blue; */
+    color: black;
+    border: none;
+    margin-top: 20px;
+}
+
+#player:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
+.score{
+    display: flex;
+    font-size: 20px;
+    width: 300px;
+    justify-content: space-between;
+    
+}
+
+.score p{
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+}
